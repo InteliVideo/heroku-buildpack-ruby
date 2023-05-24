@@ -13,11 +13,11 @@ ruby_version = "2.4.10"
 files = ["spec/"]
 
 [[publish.Vendor]]
-url = "https://heroku-buildpack-ruby.s3.us-east-1.amazonaws.com/heroku-20/ruby-2.4.10.tgz"
+url = "https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.gz"
 dir = "vendor/ruby/heroku-20"
 
 [[publish.Vendor]]
-url = "https://heroku-buildpack-ruby.s3.us-east-1.amazonaws.com/heroku-22/ruby-2.4.10.tgz"
+url = "https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.gz"
 dir = "vendor/ruby/heroku-22"
 
 [[stacks]]
